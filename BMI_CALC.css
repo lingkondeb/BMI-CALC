@@ -1,0 +1,121 @@
+body{ 
+    background:rgb(17, 58, 65);
+}
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    background:linear-gradient(135deg,#2c3e50,#4ca1af),url("one.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height:520px ;
+    width:330px;
+    color: #fff;
+    background-color: beige;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow:3px 3px  5px #fff,-3px -3px 5px #ffffff;
+   
+}
+
+
+.heading{
+  margin: 30px 30px 20px 30px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  font-style:oblique;
+  color: lightcoral;
+}
+
+form{ 
+    margin-left: 5%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;
+    font-size:20px;  
+    width: 90%;
+   
+
+}
+
+
+   form span{
+     display: block;
+      text-align: left;
+      font-size: large;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      width: 100%;
+      text-align: left;
+      color: #1a2531;
+    }
+
+    form input{
+        padding: 10px;
+        background:linear-gradient(135deg,#2c3e50,#4ca1af),url("one.jpg") ;
+        background-position: center;
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, .25);
+        color: white;
+        box-shadow:1px 1px 5px white;
+        border-radius:10px;
+    }
+form input::placeholder{
+    color: rgba(255, 255, 255, .55);
+}
+.button_container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+    form button{
+        
+        height: 60px;
+        width: 60px;
+        border-radius:50% ;
+        font-size: medium;
+        color: aqua;
+        background: rebeccapurple;
+        cursor: pointer;
+        box-shadow:1px 1px 5px currentColor;
+        background:linear-gradient(135deg,#2c3e50,#4ca1af),url("one.jpg") ;
+        background-position: center;
+        border: 1px solid white;
+        transition:.7s;
+        
+    }
+
+    form button:hover{
+    
+        transform: translate(-5px,-5px);
+        box-shadow:2px 2px 16px white;
+    }
+.output{    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: center;
+    color: #a1c1c7;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
